@@ -1,0 +1,16 @@
+{
+  "name": "halliday_centre_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sergey --root=./src/ --output=../build/ && \\cp -af ./build/* ./public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anton Melser",
+  "license": "ISC",
+  "dependencies": {
+    "sergey": "^0.0.13"
+  }
+}
